@@ -1,0 +1,20 @@
+{
+  "name": "master-list-instagram-provider",
+  "version": "0.1.0",
+  "description": "Master List Provider for Instagram",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "postinstall": "npm run build"
+  },
+  "author": "Caine Rotherham",
+  "dependencies": {
+    "instagram-private-api": "^1.45.3"
+  },
+  "peerDependencies": {
+    "master-list": "git://github.com/zeyber/master-list.git"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
