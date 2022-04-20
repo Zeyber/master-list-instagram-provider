@@ -1,1 +1,1 @@
-export * from "./InstagramProvider";
+export * from "./src/index";

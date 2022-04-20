@@ -1,5 +1,5 @@
 import { IgApiClient } from "instagram-private-api";
-import { ProviderOptions, Provider } from "master-list";
+import { ProviderOptions, Provider } from "@master-list/core";
 
 export interface InstagramOptions extends ProviderOptions {
   username: string;
